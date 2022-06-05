@@ -1,0 +1,14 @@
+.shotcurt-app-store {
+    max-width: 500px;
+}
+
+.has-text-primary {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .download-app-hand {
+        margin-bottom: -3rem;
+    }
+}

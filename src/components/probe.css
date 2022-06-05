@@ -1,0 +1,24 @@
+.probe {
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+
+    overflow: scroll;
+    /*   transform: translateX(-100vw); */
+}
+
+
+
+.first {
+
+    background-color: blue;
+    min-width: 100vw;
+    height: 100%;
+}
+
+.second {
+
+    background-color: red;
+    min-width: 100vw;
+    height: 100%;
+}

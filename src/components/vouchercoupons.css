@@ -1,0 +1,154 @@
+.vouchers-coupons {
+    background: linear-gradient(180deg, rgba(220, 225, 232, .85), #fff 75%);
+    min-height: 654px;
+    width: 100vw;
+}
+
+.card-slider {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card {
+    position: relative;
+}
+
+.locked {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.coupon-card-lock {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    z-index: 999;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: #ff6060;
+    color: #fff;
+    margin-bottom: 24px;
+    padding: 2px 16px;
+    border-radius: 100px;
+
+}
+
+.coupon-card-lock span {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.lock-description {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.open-button {
+    color: #fff !important;
+    text-decoration: underline !important;
+    padding: 24px 28px !important;
+}
+
+.span-1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.span-2 {
+    font-weight: bold;
+}
+
+.card-vouchers {
+    width: 25%;
+    min-width: 280px !important;
+    height: 100%;
+    box-shadow: none !important;
+    padding: 4px 8px 48px 4px;
+    border: none !important;
+}
+
+.voucher-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-title {
+    font-size: 1.125rem !important;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.voucher-title {
+    font-size: 1.5rem;
+    padding: 12px 24px !important;
+    text-decoration: none;
+
+}
+
+.fa-circle-info {
+    padding-left: 5px !important;
+}
+
+.coupon.is-active .voucher-title {
+    color: #000 !important;
+}
+
+.tabs ul {
+    border-bottom: none !important;
+}
+
+.tabs ul li a {
+    border-bottom: none !important;
+}
+
+.card-content {}
+
+.product-title {
+    margin-bottom: 0 !important;
+}
+
+.price-coupon {
+
+    padding-left: 0 !important;
+    justify-content: none;
+    background-color: #ee7834;
+    border-radius: 100px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    width: fit-content;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.add-to-cart {
+    color: #000;
+
+}
+
+.add-to-cart span {
+    margin-left: 20px;
+}
+
+@media only screen and(max-width:1024px) {
+
+    .left-slide,
+    .right-slide {
+        opacity: 0;
+    }
+}

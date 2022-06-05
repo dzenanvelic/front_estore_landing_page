@@ -1,0 +1,69 @@
+.heading-categories-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+
+.heading-categorie-card {
+    background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, .051)), url(../../public/images/BICIKLIZAM.jpg);
+    width: 23%;
+    min-width: 220px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 3px;
+
+    padding: 15px;
+}
+
+.title-card {
+    position: absolute;
+    bottom: 60px;
+
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.cardbutton {
+    color: #fff !important;
+    position: absolute;
+    bottom: 15px;
+    padding: 24px 0 !important;
+}
+
+.left-card-chev {
+    padding-left: 24px;
+}
+
+@media only screen and (max-width:1024px) {
+    .heading-container {
+        height: 570px;
+    }
+
+    .heading-categories-container {
+        overflow-x: scroll;
+        top: 0px;
+
+    }
+
+    .heading-categorie-card {
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .heading-categorie-card .title-card {
+        font-size: 36px;
+    }
+
+}
